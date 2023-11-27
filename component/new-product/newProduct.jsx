@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import NewProduct2 from "./newProduct2";
 
@@ -22,12 +23,14 @@ const NewProduct = ({ cardItems, title }) => {
                 data-aos="fade-up" 
                 data-aos-easing="ease-out-cubic"
                 data-aos-duration="2000" 
-                data-aos-delay="500">
+                data-aos-delay="50"
+                key={inx}>
                   <div className="relative watch_img">
-                    <img
+                    <Image
                       src={items.url}
                       alt="Loading.."
-                      className="md:w-[320px] sm:w-[350px]  h-auto 2xl:max-w-[300px] "
+                      height={300} width={330} 
+                      className="mx-auto"
                     />
                     {items?.isCart && (
                       <div className=" absolute bottom-0 left-[10px] right-[10px] ">
@@ -43,7 +46,7 @@ const NewProduct = ({ cardItems, title }) => {
                       <span className=" capitalize">{items.color}</span>
                     </h6>
                     <div className="">
-                      <img src="/svg/star.svg" alt="review" />
+                      <Image src="/svg/star.svg" alt="review"  height={16} width={94} />
                     </div>
                     <div className="flex md:flex-wrap items-center gap-x-10">
                       <h5 className="text-black font-['Red_Hat_Display'] text-[16px] font-bold leading-[26px] whitespace-nowrap">

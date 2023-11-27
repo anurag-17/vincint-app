@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const FollowUs = () => {
@@ -46,18 +47,21 @@ const FollowUs = () => {
                   data-aos-easing="ease-out-cubic"
                   data-aos-duration="2000"
                   data-aos-delay={`${items.id}00`}
+                  key={items.id}
                 >
-                  <img
+                  <Image
                     src={items.url}
                     alt="Loading.."
-                    className="mx-auto w-[250px]  md:w-[350px] lg:w-auto"
+                    className=""
+                    height={292} width={291}
                   />
                   <div className=" absolute top-0 left-0 h-full w-full flex justify-center items-center rounded img-inner"
                     >
-                    <img
+                    <Image
                       src="/svg/social/instagram.svg"
                       alt="loading."
                       className=""
+                      height={23} width={24}
                     />
                   </div>
                 </div>

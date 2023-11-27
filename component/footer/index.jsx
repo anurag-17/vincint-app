@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -25,10 +26,10 @@ const Footer = () => {
     <>
       <section className="bg-[#0F1B29]">
         <div className="container mx-auto">
-          <div className="flex flex-wrap lg:flex-nowrap gap-y-10 lg:gap-x-5 xl:gap-x-10 2xl:gap-x-20 py-[30px] lg:py-[80px] justify-between  ">
+          <div className="flex flex-wrap lg:flex-nowrap gap-y-10 gap-x-3 lg:gap-x-5 xl:gap-x-10 2xl:gap-x-20 py-[30px] lg:py-[80px] justify-between  ">
             <div className=" flex flex-col gap-5 lg:gap-8 w-full sm:w-[40%] md:w-[22%]">
               <div className="">
-                <img src="/svg/logo.svg" alt="Logo" className="w-[150px]" />
+                <Image src="/svg/logo.svg" alt="Logo" height={70} width={150}/>
               </div>
               <p className="text-[16px] font-normal text-[#C7C7C7] leading-[24px] font-['Red_Hat_Display'] ">
                 Our goal was to bring the most iconic watches to life by
@@ -98,20 +99,20 @@ const Footer = () => {
                   placeholder="Email"
                   className="border-none bg-[#0F1B29] focus-visible:outline-none  text-white placeholder:text-[#C7C7C7] text-[16px] font-normal  leading-[15px] font-['Red_Hat_Display'] "
                 />
-                <img src="/svg/arrow.svg" alt="" className="cursor-pointer" />
+                <Image src="/svg/arrow.svg" alt="icons" height={9} width={13} className="cursor-pointer" />
               </div>
               <div className="flex gap-x-8 lg:gap-5 2xl:gap-8 items-center">
                 <Link href="https://www.twitter.com/">
-                  <img src="/svg/social/icon1.svg" alt="" />
+                  <Image src="/svg/social/icon1.svg" alt="icons" height={23} width={24} />
                 </Link>
                 <Link href="https://www.facebook.com/">
-                  <img src="/svg/social/icon2.svg" alt="" />
+                  <Image src="/svg/social/icon2.svg" alt="icons" height={23} width={24} />
                 </Link>
                 <Link href="https://www.youtube.com/">
-                  <img src="/svg/social/icon3.svg" alt="" />
+                  <Image src="/svg/social/icon3.svg" alt="icons" height={23} width={24} />
                 </Link>
                 <Link href="https://www.instagram.com/">
-                  <img src="/svg/social/icon4.svg" alt="" />
+                  <Image src="/svg/social/icon4.svg" alt="icons" height={23} width={24} />
                 </Link>
               </div>
             </div>
@@ -123,7 +124,7 @@ const Footer = () => {
               © 2023 VINCENT PARIS. All Rights Reserved.
             </p>
             <div className="">
-              <img src="/svg/card.svg" alt="cards.." className="" />
+              <Image src="/svg/card.svg" alt="cards.." className="" height={21} width={155}  />
             </div>
           </div>
         </div>

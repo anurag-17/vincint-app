@@ -1,3 +1,5 @@
+import dynamic from "next/dynamic";
+import Image from "next/image";
 import React from "react";
 
 const Section2 = () => {
@@ -35,7 +37,7 @@ const Section2 = () => {
                  data-aos-duration="1000" 
                  data-aos-delay="50">
                   <div className="md:w-[50px] w-auto lg:w-auto" >
-                    <img src={items.url} alt="" className="support-icon"/>
+                    <Image src={items.url} alt="" className="support-icon" height={70} width={70}/>
                   </div>
                   <div className="">
                     <h6 className="text-black font-['Red_Hat_Display'] text-[18px] lg:text-[20px] font-bold leading-normal">{items.label}</h6>
@@ -53,4 +55,4 @@ const Section2 = () => {
   )
 };
 
-export default Section2;
+export default dynamic(() => Promise.resolve(Section2), { ssr: false });

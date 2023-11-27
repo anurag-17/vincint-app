@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Reviews = () => {
@@ -26,17 +27,18 @@ const Reviews = () => {
                   }`}
                   key={items}
 
-                  data-aos="zoom-in-up"
+                  data-aos="fade-up"
                   data-aos-easing="ease-in-out"
                   data-aos-duration="2000" 
-                  // data-aos-delay="300"
+                  data-aos-delay="500"
                 >
                   
                   <div className="">
-                    <img
+                    <Image
                       src="/svg/ps_quote.svg"
                       alt="Loading.."
                       className="mx-auto"
+                      height={42} width={46}
                     />
                   </div>
                   <p className="text-[#868686] font-['Red_Hat_Display'] text-[18px] font-normal leading-[28px]">
