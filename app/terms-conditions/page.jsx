@@ -7,20 +7,20 @@ const TermsAndConditionsPage = () => {
     <div className="w-full max-w-[1200px] 2xl:px-0 mx-auto px-[20px]  flex flex-col justify-between items-center">
     <div className="terms-and-conditions-page">
       <h2 className='text-[28px] md:text-[34px] mb-5 font-semibold leading-tight'>Terms and Conditions</h2>
-      <p>Welcome to E-commerce website. These terms and conditions outline the rules and regulations for the use of E-commerce website's Website, located at E-commerce website.</p>
+      <p>Welcome to Vincent. These terms and conditions outline the rules and regulations for the use of Vincent , located at Vincent.</p>
       
       <h3 className='text-[16px] mt-5 font-semibold leading-tight'>Cookies</h3>
-      <p>We employ the use of cookies. By accessing E-commerce website, you agreed to use cookies in agreement with the E-commerce website's Privacy Policy.</p>
+      <p>We employ the use of cookies. By accessing Vincent, you agreed to use cookies in agreement with the Vincent Privacy Policy.</p>
       <p>Most interactive websites use cookies to let us retrieve the user’s details for each visit. Cookies are used by our website to enable the functionality of certain areas to make it easier for people visiting our website. Some of our affiliate/advertising partners may also use cookies.</p>
       
       <h3 className='text-[16px] mt-5 font-semibold leading-tight'>License</h3>
-      <p>Unless otherwise stated, E-commerce website and/or its licensors own the intellectual property rights for all material on E-commerce website. All intellectual property rights are reserved. You may access this from E-commerce website for your own personal use subjected to restrictions set in these terms and conditions.</p>
+      <p>Unless otherwise stated, Vincent and/or its licensors own the intellectual property rights for all material on Vincent. All intellectual property rights are reserved. You may access this from Vincent for your own personal use subjected to restrictions set in these terms and conditions.</p>
       <p>You must not:</p>
       <ul className=' list-disc list-inside'>
-        <li>Republish material from E-commerce website</li>
-        <li>Sell, rent or sub-license material from E-commerce website</li>
-        <li>Reproduce, duplicate or copy material from E-commerce website</li>
-        <li>Redistribute content from E-commerce website</li>
+        <li>Republish material from Vincent</li>
+        <li>Sell, rent or sub-license material from Vincent</li>
+        <li>Reproduce, duplicate or copy material from Vincent</li>
+        <li>Redistribute content from Vincent</li>
       </ul>
 
 

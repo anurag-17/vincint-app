@@ -93,7 +93,7 @@ const Header = () => {
                   width={20}
                 />
               </div> */}
-              <Link href="/login">
+              <Link href="/">
               <div className="">
                 <Image
                   src="/svg/person.svg"
