@@ -3,22 +3,30 @@
 @tailwind utilities;
 
 
+
+
+.custom-input{
+  @apply  w-full rounded-[4px] border border-[#cac7c8] bg-transparent py-4 pl-6 pr-10 outline-none focus:border-primary focus-visible:shadow-none dark:focus:border-primary
+}
+.btn_primary{
+  @apply   inline-flex justify-center items-center gap-10 px-[45px] py-[10px] lg:py-[17px] border border-[#54A3F2] rounded-[50px] bg-[#54A3F2]  text-white font-semibold leading-[26px] font-[Montserrat] uppercase hover:text-[#54A3F2]  hover:bg-white w-full md:w-auto focus-visible:outline-none z-[99]
+}
 html {
   scroll-behavior: smooth;
 }
 
-button {
-  transition: .3s;
-}
+  button {
+    transition: .3s;
+  }
 
-button:hover {
-  webkit-transition: all 350ms ease-in-out 0s;
-  -moz-transition: all 350ms ease-in-out 0s;
-  -ms-transition: all 350ms ease-in-out 0s;
-  -o-transition: all 350ms ease-in-out 0s;
-  transition: all 350ms ease-in-out 0s;
-  opacity: 1;
-}
+  button:hover {
+    webkit-transition: all 350ms ease-in-out 0s;
+    -moz-transition: all 350ms ease-in-out 0s;
+    -ms-transition: all 350ms ease-in-out 0s;
+    -o-transition: all 350ms ease-in-out 0s;
+    transition: all 350ms ease-in-out 0s;
+    opacity: 1;
+  }
 
 .hero-section {
   background: url("/images/hero.png");
@@ -69,7 +77,7 @@ h1 {
 .menu-list {
   text-decoration: none;
   border-bottom: 1px solid transparent;
-  transition: border-bottom 0.3s ease;
+  transition: border-bottom 1s ease;
 
 }
 
@@ -94,6 +102,16 @@ h1 {
   ;
 }
 
+.watch_btn{
+  display: none;
+  bottom: 10px;
+  transition: display 1s ease; 
+  /* transition-duration: 3s; */
+}
+.watch_img:hover .watch_btn{
+  display: block;
+  bottom: 0px;
+}
 /* ------------   icons hover ----------- */
 
 
@@ -135,4 +153,21 @@ h1 {
     text-align: center;
   }
 
+}
+
+::-webkit-scrollbar {
+  width: 4px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Background color of the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; /* Color of the scrollbar thumb */
+  border-radius:   6px; /* Radius of the scrollbar thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color of the scrollbar thumb on hover */
 }

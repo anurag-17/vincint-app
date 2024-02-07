@@ -58,13 +58,13 @@ export default function Home() {
     },
     {
       id: 2,
-      url: "/images/watch7.png",
-      color: "red",
+      url: "/images/watch1.png",
+      color: "brown",
     },
     {
       id: 3,
-      url: "/images/watch6.png",
-      color: "green",
+      url: "/images/watch4.png",
+      color: "orange",
     },
     {
       id: 3,
@@ -82,7 +82,6 @@ export default function Home() {
       <NewProduct cardItems={bestSellersItems} title="best Sellers" />
       <Reviews />
       <FollowUs/>
-      <Footer/>
     </>
   );
 }

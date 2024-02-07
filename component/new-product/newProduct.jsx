@@ -19,26 +19,26 @@ const NewProduct = ({ cardItems, title }) => {
            <div className="">
            <div className="md:pt-[70px] pt-[30px] flex  flex-wrap md:flex-row lg:flex-nowrap gap-x-5 2xl:gap-x-5 gap-y-5  xl:gap-y-10 md:px-0 px-4 justify-between ">
               {cardItems.map((items, inx) => (
-                <div className="border border-[#D0D0D0]  rounded-[20px] bg-white  px-3 pt-4 pb-3 md:pb-8 2xl:w-[23.5%]" 
+                <div className="border border-[#D0D0D0] watch_img rounded-[20px] bg-white  px-3 pt-4 pb-3 md:pb-8 2xl:w-[23.5%]" 
                 data-aos="fade-up" 
                 data-aos-easing="ease-out-cubic"
                 data-aos-duration="2000" 
                 data-aos-delay="50"
                 key={inx}>
-                  <div className="relative watch_img">
+                  <div className="relative  cursor-pointer">
                     <Image
                       src={items.url}
                       alt="Loading.."
                       height={300} width={330} 
                       className="mx-auto"
                     />
-                    {items?.isCart && (
-                      <div className=" absolute bottom-0 left-[10px] right-[10px] ">
+                     
+                      <div className=" watch_btn absolute left-[10px] right-[10px] ">
                         <button className=" inline-flex justify-center items-center gap-10 text-[14px] lg:text-[16px] px-6 xl:px-[45px] py-[17px] rounded-[50px] bg-[#000]  text-white font-semibold leading-[26px] font-[Montserrat] uppercase mx-auto  whitespace-nowrap w-full hover:bg-[#16202c] transition ">
                           Add to cart
                         </button>
                       </div>
-                    )}
+                  
                   </div>
                   <div className="px-4 flex flex-col gap-5 pt-5 ">
                     <h6 className="text-black font-['Red_Hat_Display'] text-[15px] 2xl:text-[16px] font-medium leading-[26px] 2xl:whitespace-nowrap">

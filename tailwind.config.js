@@ -16,6 +16,18 @@ module.exports = {
     },
     colors: {
       ...colors,
+      primary: "#133239;",
+      secondary: "#000",
+      main: "#fff",
+      "white": "#ffffff",
+        "black": "#38424D",
+        "gray": "#FBFBFF",
+        "yellow": "#FDD446",
+        "theme-color": "#1b3138;",
+        "border-color": "#E8E8E8",
+        "body-color": "#747E88",
+        "heading-color": "#162447",
+        "shadow": "#9D6A6A",
     },
     container: {
       padding: {
