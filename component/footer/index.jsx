@@ -91,24 +91,6 @@ const Footer = () => {
               </ul>
             </div>
 
-            {/* <div className="">
-              <h6 className="text-[18px] font-semibold text-[#fff] leading-[26px] font-['Red_Hat_Display']">
-                My Account
-              </h6>
-              <ul className="inline-flex flex-col gap-4 pt-[20px]">
-                {menuList3.map((list, inx) => (
-                  <li
-                    key={inx}
-                    className="text-[15px] xl:text-[16px] font-normal text-[#C7C7C7] leading-[24px] font-['Red_Hat_Display']"
-                  >
-                    {list}
-                  </li>
-                ))}
-              </ul>
-            </div> */}
-
-            {/* </div> */}
-
             <div className=" flex flex-col gap-5 lg:gap-8">
               <p className="text-[18px] font-semibold text-[#fff] leading-[26px] font-['Red_Hat_Display']">
                 Subscribe to our emails
