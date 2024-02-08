@@ -29,7 +29,7 @@ const NewProduct = ({ cardItems, title }) => {
                     data-aos-delay="50"
                     key={inx}
                   >
-                    <div className="relative  cursor-pointer">
+                    <div className="relative ">
                       <Image
                         src={items.url}
                         alt="Loading.."
