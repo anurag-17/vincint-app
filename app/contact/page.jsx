@@ -9,7 +9,7 @@ const ContactPage = () => {
   return (
     <>
       <div className="bg-#f0fbff] pt-[30px]" id="contact">
-        <div className="pt-[80px] lg:pt-[130px] pb-[70px] bg-[#f0fbff]">
+        <div className="lg:pt-[130px]  sm:pt-[20px] pb-[70px] bg-[#f0fbff]">
           <div className=" text-black py-[30px] px-20px md:px-1">
             <div className="">
               <h3 className="text-[24px] md:text-[35px] font-bold leading:[30px] md:leading-[45px] text-center px-4 uppercase">
@@ -40,7 +40,7 @@ const ContactPage = () => {
           <div className="container mx-auto">
             <div className="bg-[#fff] py-[20px] lg:py-[30px] ">
               <form>
-                <div className="grid grid-cols-2 gap-6 pt-[50px]">
+                <div className="grid md:grid-cols-2 gap-4 lg:gap-6 pt-[50px]">
                   <div className="">
                     <Image src="/images/con.webp" alt="contact" height={200} width={500} className="mx-auto" />
                   </div>
@@ -82,7 +82,7 @@ const ContactPage = () => {
                         maxLength={500}
                       ></textarea>
                     </div>
-                    <div className="col-span-2 ml-auto">
+                    <div className="col-span-2 md:ml-auto">
                       <button
                         className="btn_primary"
                         type="submit"

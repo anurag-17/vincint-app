@@ -3,8 +3,8 @@ import React from 'react';
 const TermsAndConditionsPage = () => {
   return (
 
-    <div className="container mx-auto my-[20px] md:my-[40px] px-[20px] pt-[170px]">
-    <div className="w-full max-w-[1200px] 2xl:px-0 mx-auto px-[20px]  flex flex-col justify-between items-center">
+    <div className="container mx-auto my-[20px] md:my-[40px] px-[20px] lg:pt-[170px]  sm:pt-[20px]">
+    <div className="w-full max-w-[1200px] 2xl:px-0 mx-auto md:px-[20px]  flex flex-col justify-between items-center">
     <div className="terms-and-conditions-page">
       <h2 className='text-[28px] md:text-[34px] mb-5 font-semibold leading-tight'>Privacy Policy</h2>
       <p>Welcome to Vincent. These Privacy Policy outline the rules and regulations for the use of Vincent's Website, located at Vincent.</p>

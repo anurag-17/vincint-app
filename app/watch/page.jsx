@@ -10,8 +10,8 @@ import NewProduct2 from "@/component/new-product/newProduct2";
 const AboutPage = () => {
   return (
     <>
-      <Header />
-      <div className="pt-[170px]">
+      {/* <Header /> */}
+      <div className="lg:pt-[170px]  sm:pt-[20px]">
         {/*----------- section 1----------- */}
         <div className="text-black py-[30px]">
           <h3 className="text-[38px]  font-bold leading:[30px] md:leading-[45px] text-center px-4 uppercase">

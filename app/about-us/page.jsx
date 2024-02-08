@@ -14,8 +14,8 @@ const AboutPage = () => {
 
   return (
     <>
-     <Header/>
-      <div className='pt-[170px]'>
+     {/* <Header/> */}
+      <div className='lg:pt-[170px]  sm:pt-[20px]'>
 
         {/*----------- section 1----------- */}
         <div className="text-black py-[30px]">
@@ -65,7 +65,7 @@ const AboutPage = () => {
                 // data-aos-easing="ease-out-cubic"
                 // data-aos-duration="2000"
               >
-                <Image src="/images/aboutimg3.jpg" alt="hero-img" height={400} width={550} />
+                <Image src="/images/aboutimg3.jpg" alt="hero-img" height={400} width={550} className="mx-auto"/>
 
               </div>
             </div>
@@ -84,7 +84,7 @@ const AboutPage = () => {
               // data-aos-easing="ease-out-cubic"
               // data-aos-duration="2000"
             >
-              <Image src="/images/aboutimg1.jpg" alt="hero-img" height={200} width={550} />
+              <Image src="/images/aboutimg1.jpg" alt="hero-img" height={200} width={550} className="mx-auto"/>
             </div>
             <div
               className="flex flex-col z-[99] w-full lg:w-[50%]"

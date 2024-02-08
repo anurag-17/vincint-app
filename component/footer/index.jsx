@@ -42,7 +42,7 @@ const Footer = () => {
         <div className="container mx-auto">
           <div className="flex flex-wrap lg:flex-nowrap gap-y-10 gap-x-3 lg:gap-x-5 xl:gap-x-10 2xl:gap-x-20 py-[30px] lg:py-[80px] justify-between  ">
             <div className=" flex flex-col gap-5 lg:gap-8 w-full sm:w-[40%] md:w-[22%]">
-              <Link href="#">
+              <Link href="/">
                 <div className="">
                   <Image
                     src="/svg/logo.svg"

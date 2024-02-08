@@ -13,11 +13,7 @@ import AOS from 'aos';
 
 
 export default function Home() {
-  const [isShow, setShow] = useState(false);
 
-  const handleShow = ({ value }) => {
-    setShow(value);
-  };
 
   useEffect(() => {
     AOS.init({
@@ -75,7 +71,7 @@ export default function Home() {
 
   return (
     <>
-      <Herosection handleShow={handleShow} isShow={isShow} />
+      <Herosection />
       <Section2 />
       <NewProduct cardItems={newProductItems}  title="new products"/>
       <NewProduct2 />
