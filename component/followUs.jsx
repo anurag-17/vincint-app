@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const FollowUs = () => {
@@ -55,6 +56,7 @@ const FollowUs = () => {
                     className=""
                     height={292} width={291}
                   />
+                  <Link href="https://www.instagram.com/"> 
                   <div className=" absolute top-0 left-0 h-full w-full flex justify-center items-center rounded img-inner"
                     >
                     <Image
@@ -64,6 +66,7 @@ const FollowUs = () => {
                       height={23} width={24}
                     />
                   </div>
+                  </Link>
                 </div>
               ))}
             </div>

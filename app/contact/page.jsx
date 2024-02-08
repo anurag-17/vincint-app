@@ -11,19 +11,26 @@ const ContactPage = () => {
       <div className="bg-#f0fbff] pt-[30px]" id="contact">
         <div className="lg:pt-[130px]  sm:pt-[20px] pb-[70px] bg-[#f0fbff]">
           <div className=" text-black py-[30px] px-20px md:px-1">
-            <div className="">
+            <div className=""
+                data-aos="fade-up"
+                data-aos-easing="ease-in-out"
+                data-aos-duration="1000">
               <h3 className="text-[24px] md:text-[35px] font-bold leading:[30px] md:leading-[45px] text-center px-4 uppercase">
                 contact us
               </h3>
               <div className="bg-[#54A3F2] w-[142px] mx-auto h-[3px] mt-[15px]"></div>
-              <p className="my-4  text-[14px]  2xl:text-[16px] font-normal leading-[26px] text-center capitalize 2xl:max-w-[50%] lg:max-w-[60%]  max-w-[90%] mx-auto">
+              <p className="my-4  text-[14px]  2xl:text-[16px] font-normal leading-[26px] text-center  2xl:max-w-[50%] lg:max-w-[60%]  max-w-[90%] mx-auto">
                 If you have any questions regarding any of our products or a
                 past purchase, please let us know, and we will be happy to
                 assist you! Send us a message using the form below or by email
-                at abc@gmail.com.
+                at{" "}
+                <a href="mailto:vincint@gmail.com" className=" font-semibold"> vincint@gmail.com </a>.
               </p>
             </div>
-            <div className="flex gap-x-20  gap-y-5 justify-center items-center flex-col md:flex-row pt-4">
+            <div className="flex gap-x-20  gap-y-5 justify-center items-center flex-col md:flex-row pt-4"
+                data-aos="fade-up"
+                data-aos-easing="ease-in-out"
+                data-aos-duration="1000">
               <Link href="tel:+91-1234567890">
                 <p className="text-14px 2xl:text-[16px] font-normal leading-[26px] text-center">
                   Call us at : +91-1234567890
@@ -40,7 +47,10 @@ const ContactPage = () => {
           <div className="container mx-auto">
             <div className="bg-[#fff] py-[20px] lg:py-[30px] ">
               <form>
-                <div className="grid md:grid-cols-2 gap-4 lg:gap-6 pt-[50px]">
+                <div className="grid md:grid-cols-2 gap-4 lg:gap-6 pt-[50px]"
+                    data-aos="fade-up"
+                    data-aos-easing="ease-in-out"
+                    data-aos-duration="1000">
                   <div className="">
                     <Image src="/images/con.webp" alt="contact" height={200} width={500} className="mx-auto" />
                   </div>
