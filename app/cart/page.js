@@ -68,6 +68,7 @@ const Cart = () => {
                     <h1 className="text-[12px] lg:text-[14px] 2xl:text-[18px] xl:mt-2">
                       Quantity: {item.quantity}
                     </h1>
+                    
                     <div className="flex">
                       <button
                         onClick={() => {
