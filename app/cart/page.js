@@ -104,13 +104,14 @@ const Cart = () => {
                   <h2>Total Itmes</h2>
                   {cart.length > 0 && <h2> {cart.length}</h2>}
                 </div>
+               
+                <div className="flex justify-between my-1 text-[8px] sm:text-[10px] md:text-[12px] lg:text-[14px] xl:text-[16px] 2xl:text-[18px] font-semibold ">
+                  <h2>Discount </h2>
+                  <h2>(-)00.0</h2>
+                </div>
                 <div className="flex justify-between my-1 text-[8px] sm:text-[10px] md:text-[12px] lg:text-[14px] xl:text-[16px] 2xl:text-[18px] font-semibold">
                   <h2>Total Price</h2>
                   <h2>{calculateTotalPrice()}</h2>
-                </div>
-                <div className="flex justify-between my-1 text-[8px] sm:text-[10px] md:text-[12px] lg:text-[14px] xl:text-[16px] 2xl:text-[18px] font-semibold ">
-                  <h2>Discount (-)</h2>
-                  <h2>00.0</h2>
                 </div>
                 <div>
                 <Link href="https://www.controlf5.in/">
