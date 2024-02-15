@@ -1,5 +1,4 @@
 "use client";
-
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import dynamic from "next/dynamic";
@@ -17,7 +16,7 @@ const Herosection = ({ handleShow, isShow }) => {
 
         {/* mobile */}
 
-        <div className="container mx-auto z-[99]">
+        <div className="container mx-auto z-[0]">
           <div className="grid md:grid-cols-2 lg:justify-center lg:items-center gap-x-20 gap-y-10 pt-1 lg:pt-[100px] md:mt-0 mt-[70px]">
             <div
               className="flex flex-col gap-5 lg:gap-10 justify-center  z-[99] sal-example"
@@ -38,7 +37,7 @@ const Herosection = ({ handleShow, isShow }) => {
               </div>
             </div>
             <div
-              className="2-[99]"
+              className="2-[99] z-0"
               data-aos="fade-left"
               data-aos-easing="ease-out-cubic"
               data-aos-duration="1000"
@@ -48,7 +47,7 @@ const Herosection = ({ handleShow, isShow }) => {
                 alt="watch.."
                 height={400}
                 width={800}
-                className="mx-auto"
+                className="mx-auto z-0"
               />
             </div>
           </div>

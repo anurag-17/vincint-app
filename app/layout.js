@@ -3,6 +3,7 @@ import "./globals.css";
 import 'aos/dist/aos.css';
 import Header from "@/component/Header";
 import Footer from "@/component/footer";
+import { CartProvider } from "./contextCreate/contextCreate";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -27,9 +28,11 @@ export default function RootLayout({ children }) {
 
       </head>
       <body className={inter.className}>
-        <Header/>
+       <CartProvider>
+       <Header/>
         {children}
       <Footer/>
+       </CartProvider>
 
       </body>
     </html>
