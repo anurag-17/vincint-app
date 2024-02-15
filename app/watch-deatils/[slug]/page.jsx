@@ -31,7 +31,7 @@ const ContactPage = ({ params }) => {
           <div className="container mx-auto pt-[30px]">
             <ToastContainer autoClose={1000} />
             <div className="flex lg:flex-row flex-col p-[20px] md:p-[40px] items-center bg-[#f3f3f3] gap-10">
-              <div className="max-w-[60%] w-full">
+              <div className="max-w-[60%] w-full relative">
                 <button
                   onClick={() => {
                     addToWishlist(data);
@@ -46,7 +46,7 @@ const ContactPage = ({ params }) => {
                     viewBox="0 0 24 24"
                     xmlns="http://www.w3.org/2000/svg"
                     aria-hidden="true"
-                    className="absolute w-7 2xl:w-10"
+                    className="absolute w-10 2xl:w-10 left-3 top-8"
                   >
                     <path
                       stroke-linecap="round"

@@ -99,14 +99,13 @@ const Header = () => {
         <div className="flex gap-7 sm:gap-10 items-center">
           <div className="">
             <div className="flex gap-7 ">
-            <div className="relative">
-
+              <div className="relative">
                 <Link href="/cart">
-                {cart.length > 0 && (
-                          <span className="absolute  text-[10px]  bottom-[15px] left-[17px] sm:bottom-[14px] sm:left-[18px] md:bottom-[16px] md:left-[17px]  border rounded-full py-[1px] px-[6px] md:py-[2px] md:px-[6px] sm:py-[2px] sm:px-[6px] xl:p-1 xl:px-2  bg-white ">
-                            {cart.length}
-                          </span>
-                        )}
+                  {cart.length > 0 && (
+                    <span className="absolute  text-[10px]  bottom-[15px] left-[17px] sm:bottom-[14px] sm:left-[18px] md:bottom-[16px] md:left-[17px]  border rounded-full py-[1px] px-[6px] md:py-[2px] md:px-[6px] sm:py-[2px] sm:px-[6px] xl:p-1 xl:px-2  bg-white ">
+                      {cart.length}
+                    </span>
+                  )}
                   <svg
                     data-slot="icon"
                     fill="none"
@@ -127,11 +126,11 @@ const Header = () => {
               </div>
               <div className="relative">
                 <Link href="/wishlist">
-                {wishlist.length > 0 && (
-                          <span className="absolute  text-[10px]  bottom-[15px] left-[20px] sm:bottom-[14px] sm:left-[20px] md:bottom-[16px] md:left-[20px]  border rounded-full py-[1px] px-[6px] md:py-[2px] md:px-[6px] sm:py-[2px] sm:px-[6px] xl:p-1 xl:px-2  bg-white ">
-                            {wishlist.length}
-                          </span>
-                        )}
+                  {wishlist.length > 0 && (
+                    <span className="absolute  text-[10px]  bottom-[15px] left-[20px] sm:bottom-[14px] sm:left-[20px] md:bottom-[16px] md:left-[20px]  border rounded-full py-[1px] px-[6px] md:py-[2px] md:px-[6px] sm:py-[2px] sm:px-[6px] xl:p-1 xl:px-2  bg-white ">
+                      {wishlist.length}
+                    </span>
+                  )}
                   <svg
                     data-slot="icon"
                     fill="none"
@@ -141,7 +140,6 @@ const Header = () => {
                     xmlns="http://www.w3.org/2000/svg"
                     aria-hidden="true"
                     className="text-white w-6 md:w-6"
-
                   >
                     <path
                       stroke-linecap="round"
@@ -218,12 +216,12 @@ const Header = () => {
                 ))}
                 <div className="flex gap-6 2xl:gap-7 relative">
                   <div>
-                  <Link href="/cart">
-                        {cart.length > 0 && (
-                          <span className="absolute 2xl:text-[14px] text-[10px] 2xl:bottom-[20px] 2xl:left-[21px] xl:bottom-[20px] xl:left-[18px] lg:bottom-[14px] lg:left-[17px] md:bottom-[16px] md:left-[8px]  border rounded-full p-[1px] lg:py-[2px] lg:px-[6px] px-1 xl:p-1 xl:px-2 2xl:py-[4px] 2xl:px-[10px] bg-white ">
-                            {cart.length}
-                          </span>
-                        )}
+                    <Link href="/cart">
+                      {cart.length > 0 && (
+                        <span className="absolute 2xl:text-[14px] text-[10px] 2xl:bottom-[20px] 2xl:left-[21px] xl:bottom-[20px] xl:left-[18px] lg:bottom-[14px] lg:left-[17px] md:bottom-[16px] md:left-[8px]  border rounded-full p-[1px] lg:py-[2px] lg:px-[6px] px-1 xl:p-1 xl:px-2 2xl:py-[4px] 2xl:px-[10px] bg-white ">
+                          {cart.length}
+                        </span>
+                      )}
                       <svg
                         data-slot="icon"
                         fill="none"
@@ -244,11 +242,11 @@ const Header = () => {
                   </div>
                   <div className="relative">
                     <Link href="/wishlist">
-                    {wishlist.length > 0 && (
-                          <span className="absolute 2xl:text-[14px] text-[10px] 2xl:bottom-[20px] 2xl:left-[25px] xl:bottom-[20px] xl:left-[20px] lg:bottom-[14px] lg:left-[20px] md:bottom-[16px] md:left-[8px]  border rounded-full p-[1px] lg:py-[2px] lg:px-[6px] px-1 xl:p-1 xl:px-2 2xl:py-[4px] 2xl:px-[10px] bg-white ">
-                            {wishlist.length}
-                          </span>
-                        )}
+                      {wishlist.length > 0 && (
+                        <span className="absolute 2xl:text-[14px] text-[10px] 2xl:bottom-[20px] 2xl:left-[25px] xl:bottom-[20px] xl:left-[20px] lg:bottom-[14px] lg:left-[20px] md:bottom-[16px] md:left-[8px]  border rounded-full p-[1px] lg:py-[2px] lg:px-[6px] px-1 xl:p-1 xl:px-2 2xl:py-[4px] 2xl:px-[10px] bg-white ">
+                          {wishlist.length}
+                        </span>
+                      )}
                       <svg
                         data-slot="icon"
                         fill="none"
@@ -258,7 +256,6 @@ const Header = () => {
                         xmlns="http://www.w3.org/2000/svg"
                         aria-hidden="true"
                         className="text-white lg:w-6 xl:w-7 2xl:w-8"
-
                       >
                         <path
                           stroke-linecap="round"

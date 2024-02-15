@@ -96,6 +96,9 @@ export const CartProvider = ({ children }) => {
     });
   };
 
+  const calculateTotalPrice = () => {
+    return cart.reduce((total, product) => total + product.price * product.quantity, 0);
+  };
   return (
     <CartContext.Provider
       value={{
@@ -107,6 +110,7 @@ export const CartProvider = ({ children }) => {
         removeFromWishlist,
         clearCart,
         clearWishlist,
+        calculateTotalPrice,
       }}
     >
       {children}

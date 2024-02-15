@@ -54,7 +54,7 @@ const Page = () => {
               {wishlist.map((item, index) => (
                 <li
                   key={index}
-                  className="border mb-5 lg:mb-10 2xl:mb-14 p-2 2xl:p-4 w-full flex justify-between gap-5"
+                  className="border mb-5 lg:mb-10 2xl:mb-14 p-2 2xl:p-4 w-full flex justify-between gap-5 rounded-md "
                 >
                   <div className="w-4/12 sm:w-3/12">
                     <img
